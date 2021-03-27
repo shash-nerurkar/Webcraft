@@ -5,6 +5,21 @@
     --dark: #310B0B;
 }
 
-.light_text {
-    color: var(--light);
+.row {
+    justify-content: center;
+}
+
+.row_spread {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.align_bot {
+    align-items: baseline;
+}
+
+.img_rowfit {
+    max-width: 50%;
+    height: auto;
 }
