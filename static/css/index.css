@@ -1,0 +1,10 @@
+:root {
+    --light: #EEB76B;
+    --maroon: #E2703A;
+    --pink: #9C3D54;
+    --dark: #310B0B;
+}
+
+.light_text {
+    color: var(--light);
+}
