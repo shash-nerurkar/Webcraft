@@ -213,7 +213,7 @@
   .rash_bhav p {
     width: 100%;
     text-align: center;
-    color: var(--dark_light);
+    color: var(--light);
   }
 
   .rash_bhav h2 {
@@ -239,7 +239,7 @@
   .kovind h2, p{
     padding: 0 2rem;
     color: var(--dark);
-    text-align: justify;
+    text-align: right;
   }
   
   .img_rowfit {
