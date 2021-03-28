@@ -8,12 +8,6 @@
     --dark: rgb(49, 11, 11);
 }
 
-body {
-    background-color: var(--light);
-    margin: 0;
-}
-
-
 .row_spread {
     display: flex;
     flex-direction: row;
@@ -29,7 +23,7 @@ body {
 .gandhi h2, p{
     padding: 0 2rem;
     color: var(--dark);
-    text-align: justify;
+    text-align: right;
 }
 
 .img_rowfit {
@@ -55,7 +49,6 @@ body {
     padding: 1rem 0rem;
     position: relative;
     transition: all ease-in-out 0.4s;
-    color: var(--light);
 }
 
 .team .member:hover {
@@ -80,21 +73,33 @@ body {
 }
 
 .member .first{
-    background-image: url('../../assets/mahatma_gandhi.png');
+    background-image: url('../../assets/lok_sabha.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.member:hover .first{
+    background-image: url('../../assets/lok_sabha_blurred.jpg');
 }
 
 .member .second{
-    background-image: url('../../assets/mahatma_gandhi.png');
+    background-image: url('../../assets/rajya_sabha.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.member:hover .second{
+    background-image: url('../../assets/rajya_sabha_blurred.jpg');
+}
+
 .member .third{
-    background-image: url('../../assets/mahatma_gandhi.png');
+    background-image: url('../../assets/president.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.member:hover .third{
+    background-image: url('../../assets/president_blurred.jpg');
 }
 
 .team .member h4 {
@@ -125,6 +130,6 @@ body {
 }
 
 .member:hover span {
-    color: var(--light);
+    color: white;
 }
   

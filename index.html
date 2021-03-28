@@ -15,6 +15,7 @@
     <link href="static\css\startbootstrap-agency-gh-pages\css\styles.css" rel="stylesheet" />
 
     <link href="static/css/index.css" rel="stylesheet"/>
+    <link href="static/css/common.css" rel="stylesheet"/>
 
     <title>Home</title>
     
@@ -26,7 +27,9 @@
 
       <div class="container-fluid">
 
-        <a class="navbar-brand" href="#">Parliament</a>
+        <a class="navbar-brand" href="#">
+          <img src='assets/logo.svg' class='header-icon'>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -35,24 +38,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link active" aria-current="page"   href="/">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="/project">Project</a></li>
-            <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Gallery</a></li>
-                <li><a class="dropdown-item" href="#">Recent News</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Portfolio</a></li>
-              </ul>
-            </li>
+            <li class="nav-item nav-it"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item nav-it"><a class="nav-link" href="lok_sabha.html">Lok Sabha</a></li>
+            <li class="nav-item nav-it"><a class="nav-link" href="rajya_sabha.html">Rajya Sabha</a></li>
+            <li class="nav-item nav-it"><a class="nav-link" href="president.html">The President</a></li>
           </ul>
 
           <form class="d-flex">
@@ -84,12 +73,9 @@
 
       <div class="member" data-aos="zoom-in" data-aos-delay="400">
         <div class="member-info">
-          <h2>President</h2>
+          <h2>“Strength does not come from physical activity, it comes from an indomitable will.”</h2>
           <div class="social">
-            <p>1 : an official chosen to preside over a meeting or assembly. 2 : an appointed governor of a subordinate political 
-              unit. 3 : the chief officer of an organization (such as a corporation or institution) usually entrusted with the 
-              direction and administration of its policies.
-            </p>
+            <p>-Mahatma Gandhi</p>
           </div>
         </div>
       </div>
@@ -98,138 +84,55 @@
     <section id="team" class="team">
       <div class="row" data-aos="fade-left">
 
+          
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="member-info first">
-                <h4>Lok Sabha</h4>
-                <span>The Lok Sabha, or House of the People, is the lower house of India's bicameral Parliament, with the upper house 
-                      being the Rajya Sabha.</span>
-                <div class="social">
-                  <p>
-                    
-                  </p>
+              <a href='lok_sabha.html'>
+                <div class="member-info first">
+                  <h4>Lok Sabha</h4>
+                  <span>The Lok Sabha, or House of the People, is the lower house of India's bicameral Parliament, with the upper house 
+                        being the Rajya Sabha.</span>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
           
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <div class="member-info second">
+              <a href='rajya_sabha.html'>
+                <div class="member-info second">
                 <h4>Rajya Sabha</h4>
                 <span>The Rajya Sabha or Council of States is the upper house of the bicameral Parliament of India. It currently has a 
                       maximum membership of 245, of which 233 are elected by the legislatures of the states and union territories using 
                       single transferable votes through Open Ballot while the President can appoint 12 members for their contributions to 
                       art, literature, science, and social services.</span>
-                <div class="social">
-                  <p>
-                    
-                  </p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="400">
-              <div class="member-info third">
-                <h4>President</h4>
-                <span>1 : an official chosen to preside over a meeting or assembly. 2 : an appointed governor of a subordinate political 
-                      unit. 3 : the chief officer of an organization (such as a corporation or institution) usually entrusted with the 
-                      direction and administration of its policies.</span>
-                <div class="social">
-                  <p>
-
-                  </p>
+              <a href='president.html'>
+                <div class="member-info third">
+                  <h4>President</h4>
+                  <span>President is a common title for the head of state in most republics. The functions exercised by a president vary 
+                        according to the form of government. In parliamentary republics, they are usually, but not always, limited to 
+                        those of the head of state and are thus largely ceremonial.</span>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
 
       </div>
     </section>
 
-  </div>
-
-  <!-- <div class="row_spread gandhi" data-aos="fade-left">
-
-    <div class="member" data-aos="zoom-in" data-aos-delay="400">
-      <div class="member-info">
-        <h2>President</h2>
-        <div class="social">
-          <p>1 : an official chosen to preside over a meeting or assembly. 2 : an appointed governor of a subordinate political 
-            unit. 3 : the chief officer of an organization (such as a corporation or institution) usually entrusted with the 
-            direction and administration of its policies.
-          </p>
-        </div>
-      </div>
-    </div>
-    
-    <video autoplay loop volume='0' poster='assets/Indian_Parliament.svg'>
-        <source src='assets\mahatma_gandhi.mp4' type='video/mp4'>
-          <source src='assets\mahatma_gandhi.mp4' type='video/webm'>
-            <source src='assets\mahatma_gandhi.mp4' type='video/ogg'>     
-    </video>
-
-  </div> -->
-
-    
-  <div clas="container-fluid mt-0 mx-0" >
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-
-      <div class="carousel-inner mt-0 mx-0">
-
-        <div class="carousel-item active">
-          <img src="https://source.unsplash.com/1600x500/?sport,water" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <img src="https://source.unsplash.com/1600x500/?nature,mountain" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <img src="https://source.unsplash.com/1600x500/?space,planet" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-
-    </div>
-
-  </div> 
-
-  <footer>
-    <p>
-      wdqfvedbg ffdcf bgbgfdcs
-    </p>
-  </footer>
+    <footer>
+      <p>
+        © Copyright Bootslander. All Rights Reserved
+        <br />Designed by BootstrapMade
+      </p>
+    </footer>
     
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -242,7 +145,7 @@
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
       -->
-
+      
   </body>
 
 </html>
